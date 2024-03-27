@@ -50,6 +50,7 @@ input{
     background-color: transparent;
 
     font-size: 18px;
+    transition: 0.475s;
 }
 
 input::placeholder{
@@ -75,6 +76,13 @@ h3{
     width: 2vh;
 }
 
+.h2{
+    font-size: 12px;
+
+    text-decoration: none;
+    color: black;
+}
+
 button{
     height: 7vh;
     width: 16vw;
@@ -83,27 +91,23 @@ button{
     color: white;
     border: none;
     border-radius: 12px;
+    position: relative;
 
     font-size: 18px;
     font-family: "Inter", sans-serif;
     
     cursor: pointer;
-    transition: 0.5s;
-}
-
-.h2{
-    font-size: 12px;
-
-    text-decoration: none;
-    color: black;
+    transition: 0.475s;
 }
 
 button:hover{
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(29, 28, 28);
 }
 
 input:focus{
-    border: none;
+   outline: none;
+   border-bottom: white solid;
+   color: white;
 }
 
 .h2:hover{

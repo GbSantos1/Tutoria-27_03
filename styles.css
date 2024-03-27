@@ -104,6 +104,8 @@ button:hover{
     background-color: rgb(29, 28, 28);
 }
 
+/* modificado */
+
 input:focus{
    outline: none;
    border-bottom: white solid;
